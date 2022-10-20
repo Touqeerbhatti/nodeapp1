@@ -16,4 +16,4 @@ const subscriberSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('Subscriber', subscriberSchema)//table name , user hota ha
+module.exports = mongoose.model('subscriber', subscriberSchema)//table name , user hota ha
