@@ -5,9 +5,8 @@ const subscriberSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  subscribedToChannel: {
-    type: String,
-    required: true
+  age: {
+    type: Number,
   },
   subscribeDate: {
     type: Date,
@@ -16,4 +15,4 @@ const subscriberSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('subscriber', subscriberSchema)//table name , user hota ha
+module.exports = mongoose.model('usertables', subscriberSchema)//table name , user hota ha
